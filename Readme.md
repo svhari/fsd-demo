@@ -37,7 +37,7 @@ Before you begin, ensure you have the following installed:
     ```
 
 ## Project Structure
-
+```
 your_project/ │ 
 ├── app.py
 ├── models.py
@@ -45,6 +45,8 @@ your_project/ │
 │ └── index.html
 ├── static/ 
 └── README.md
+
+```
 
 
 
