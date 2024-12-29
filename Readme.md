@@ -38,7 +38,8 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 ```
-your_project/ │ 
+your_project/ 
+│ 
 ├── app.py
 ├── models.py
 ├── templates/ 
