@@ -1,4 +1,4 @@
-    # app.py
+# app.py
 
 from flask import Flask, render_template, request, jsonify
 from models import create_table, insert_user, get_users, update_user, delete_user, clear_database
