@@ -1,6 +1,7 @@
 # User Management Flask Application
 This is  a very elementary example of a Full Stack Development demo - fsd-demo
-This simple Flask application is for managing users. The application allows you to add, update, and delete users from a SQLite database.
+This simple Flask application is for managing users. 
+The application allows you to add, update, and delete users from a SQLite database.
 
 ## Prerequisites
 
@@ -60,6 +61,7 @@ your_project/
 ## Creating the Files
 
 1. **app.py**:
+   
     ```python
     from flask import Flask, request, render_template, jsonify
     from models import delete_user, get_all_users
@@ -82,6 +84,7 @@ your_project/
     ```
 
 2. **models.py**:
+   
     ```python
     import sqlite3
 
@@ -102,6 +105,7 @@ your_project/
     ```
 
 3. **templates/index.html**:
+
     ```html
     <!DOCTYPE html>
     <html>
@@ -149,7 +153,8 @@ your_project/
 1. **Initialize the Database**:
     Ensure that you have a SQLite database file named `example.db` with a `users` table. You can create this using the following commands in a Python shell:
 
-    ```python
+    ```
+    python
     import sqlite3
 
     conn = sqlite3.connect('example.db')
@@ -164,10 +169,12 @@ your_project/
     ''')
     conn.commit()
     conn.close()
+
     ```
 
 2. **Run the Application**:
-    ```bash
+    ```
+    bash
     python app.py
     ```
 
